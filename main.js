@@ -59,6 +59,8 @@ function getfetch(){
         document.getElementById('name').innerText = `Name: ${capitalizeName(name)}`
         document.getElementById('type').innerText = `Type: ${capitalizeName(type)}`
         document.querySelector('img').src = image
+
+        document.getElementById('logo').src = `logo/${type}.png`
         
         abilityMaker(data)
         /*
